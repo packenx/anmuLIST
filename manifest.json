@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "弹幕列表",
+    "version": "2.0",
+    "description": "一个查看弹幕的工具",
+    "homepage_url": "https://github.com/packenx/anmuLIST",
+    "icons": {
+        "48": "images/icon48.png",
+    },
+    "browser_action": {
+        "default_icon": "images/icon32.png"
+        "default_title": "弹幕列表",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ]
+    },
+    "permissions": [
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "*://*.iqiyi.com/*"
+    ]
+}
