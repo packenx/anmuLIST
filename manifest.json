@@ -8,7 +8,7 @@
         "128": "images/icon128.png",
     },
     "browser_action": {
-        "default_icon": "images/icon128.png"
+        "default_icon": "images/icon128.png",
         "default_title": "弹幕列表",
         "default_popup": "popup.html"
     },
