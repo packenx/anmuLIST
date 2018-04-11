@@ -5,10 +5,10 @@
     "description": "一个查看弹幕的工具",
     "homepage_url": "https://github.com/packenx/anmuLIST",
     "icons": {
-        "48": "images/icon48.png",
+        "128": "images/icon128.png",
     },
     "browser_action": {
-        "default_icon": "images/icon32.png"
+        "default_icon": "images/icon128.png"
         "default_title": "弹幕列表",
         "default_popup": "popup.html"
     },
